@@ -119,3 +119,19 @@ cards.forEach((card) => {
     event.currentTarget.classList.remove('shadow-sm')
   })
 })
+<script>
+(function(w, d) {
+  w.PushEngage = w.PushEngage || [];
+  w._peq = w._peq || [];
+  PushEngage.push(['init', {
+      appId: '2c9ab0e9-30ec-4bca-941f-e5067ed1affa'
+  }]);
+
+  var e = d.createElement('script');
+
+  e.src = 'https://clientcdn.pushengage.com/sdks/pushengage-web-sdk.js';
+  e.async = true;
+  e.type = 'text/javascript';
+  d.head.appendChild(e);
+})(window, document);
+</script>
